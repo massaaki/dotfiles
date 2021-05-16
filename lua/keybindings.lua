@@ -41,6 +41,6 @@ map('n', '<Leader>fGc', "<cmd>lua require('telescope.builtin').git_bcommits()<CR
 map('n', '<Leader>fGb', "<cmd>lua require('telescope.builtin').git_branches()<CR>", { noremap = true })
 map('n', '<Leader>fGs', "<cmd>lua require('telescope.builtin').git_status()<CR>", { noremap = true })
 
---Nerdtree Keus
+--Nerdtree Keys
 map('n', '<leader>t', ':NERDTreeToggle<cr>', { noremap = true })
 
