@@ -19,7 +19,7 @@ map('n', 'gi', '<cmd>lua vim.lsp.buf.implementation()<CR>', {silent = true, nore
 map('n', 'gs', '<cmd>lua vim.lsp.buf.signature_help()<CR>', {silent = true, noremap = true})
 map('n', '<C-n>', '<cmd>lua vim.lsp.buf.goto_next()<CR>', {silent = true, noremap = true})
 map('n', '<C-p>', '<cmd>lua vim.ls.buf.goto_prev()<CR>', {silent = true, noremap = true})
-map('n', '<C-d>', '<cmd>lua vim.lsp.buf.show_line_diagnostics()<CR>', {silent = true, noremap = true})
+--map('n', '<C-d>', '<cmd>lua vim.lsp.buf.show_line_diagnostics()<CR>', {silent = true, noremap = true})
 
 -- Fix for gg
 map('n', 'gg', '<C-Home>', { noremap = true })
